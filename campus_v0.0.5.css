@@ -21,6 +21,18 @@
 .wsb-content .wsb-ticket .wsb-ticket__val {
     color: #1E1E1E !important;
 }
+.wsb-content .campus-submit-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.wsb-content .campus-submit-wrapper .wsb-form__btn {
+    margin-left: 0;
+    background-color: var(--primaryButtonBackgroundColor);
+    color: var(--primaryButtonTextColor) !important;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    border-radius: 5px;
+}
 .wsb-content .wsb-filters {
     margin-bottom: 2rem;
 }
