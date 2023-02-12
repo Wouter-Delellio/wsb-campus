@@ -12,6 +12,15 @@
     color: var(--primaryButtonTextColor) !important;
     font-weight: 600;
 }
+.wsb-content .wsb-ticket.wsb-ticket-free {
+    background-color: #F3F2EC !important;
+}
+.wsb-content .wsb-ticket.wsb-ticket-free .wsb-ticket__footer {
+    display: none;
+}
+.wsb-content .wsb-ticket .wsb-ticket__val {
+    color: #1E1E1E !important;
+}
 .wsb-content .wsb-filters {
     margin-bottom: 2rem;
 }
@@ -143,7 +152,4 @@
         margin-left: 1rem;
         margin-right: 1rem;
    }
-}
-.wsb-ticket {
-    background-color: #F3F2EC;
 }
