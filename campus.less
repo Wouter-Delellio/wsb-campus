@@ -130,7 +130,8 @@
   color: #1E1E1E;
 
   .wsb-tiles {
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
   }
   
   .campus-wsb-tile {
@@ -207,20 +208,18 @@
 
 @media screen and ( max-width: 1024px ) {
   .campus .wsb-content {
-    a{
-      flex-basis: 49%;
-      flex-grow: 0;
-    }
+    .wsb-tiles {
+        display: grid;
+        grid-template-columns: 49% 49%;
+      }
   }
 }
 
 @media screen and ( max-width: 760px ) {
     .campus .wsb-content {
-      a{
-        flex-basis: 100%;
-        flex-grow: 0;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+        .wsb-tiles {
+            display: grid;
+            grid-template-columns: 1fr;
+          }
   }
 }
