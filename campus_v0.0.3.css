@@ -1,6 +1,3 @@
-.wsb-registration-page .wsb-content .wsb-label {
-    flex-basis: 45%;
-}
 .wsb-content {
     font-family: Poppins, sans-serif;
 }
@@ -22,6 +19,18 @@
     font-weight: 500;
     font-size: 4rem;
     color: #1E1E1E;
+}
+.wsb-content .wsb-registration-page .wsb-body {
+    max-width: 100%;
+}
+.wsb-content .wsb-registration-page .wsb-label {
+    flex-basis: 45%;
+}
+.wsb-content .wsb-promo-block {
+    display: flex;
+}
+.wsb-content .wsb-promo-block .campus-spacer {
+    flex-basis: 45%;
 }
 .wsb-content .wsb-registration-details {
     margin-bottom: 2rem;
