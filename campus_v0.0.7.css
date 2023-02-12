@@ -93,6 +93,7 @@
     color: #1E1E1E;
 }
 .campus .wsb-content .wsb-tiles {
+    justify-content: center;
     display: grid;
     grid-template-columns: 31% 31% 31%;
 }
@@ -154,6 +155,7 @@
 }
 @media screen and (max-width: 1024px) {
     .campus .wsb-content .wsb-tiles {
+        justify-content: center;
         display: grid;
         grid-template-columns: 49% 49%;
    }
