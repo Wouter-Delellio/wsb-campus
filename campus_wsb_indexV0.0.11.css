@@ -96,6 +96,12 @@
   color: var(--primaryButtonTextColor) !important;
   font-weight: 600;
 }
+.wsb-content .wsb-content .wsb-event-page .wsb-profile__rating {
+  background-color: #F3F2EC;
+  color: #1E1E1E;
+  padding: 0.5rem 1rem;
+  border-radius: initial;
+}
 .wsb-content .wsb-sharing__icon.type-ld:before,
 .wsb-content .wsb-sharing__icon.type-tw:before,
 .wsb-content .wsb-sharing__icon.type-fb:before {
