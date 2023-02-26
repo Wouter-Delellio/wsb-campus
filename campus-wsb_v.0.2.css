@@ -113,6 +113,11 @@
   color: #1E1E1E;
   padding: 0.5rem 1rem;
   border-radius: initial;
+  margin-left: initial;
+  margin-top: 250px;
+}
+.wsb-content .wsb-event-page .wsb-profile__rating i {
+  color: #E4B26A;
 }
 .wsb-content .wsb-sharing__icon.type-ld:before,
 .wsb-content .wsb-sharing__icon.type-tw:before,
